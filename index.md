@@ -8,9 +8,9 @@ In order to animate particles, we can use Newtonian mechanics to apply forces on
 
 Using variables we can define a particles position over time as a function $$\mathbf{r}(t)$$ where $$t$$ is the time when a particle is in position $$\mathbf{r}(t)$$.\
 Then the velocity $$\mathbf{v}$$ of the particle is the derivative of position:\
-$$\mathbf{v}(t) = \frac{\mathrm{d} \mathbf{r}}{\mathrm{d} t}$$\
+    $$\mathbf{v}(t) = \frac{\mathrm{d} \mathbf{r}}{\mathrm{d} t}$$\
 And the acceleration $$\mathbf{a}$$ is the derivative of the velocity:\
-$$\mathbf{a}(t) = \frac{\mathrm{d} \mathbf{v}}{\mathrm{d} t}$$
+    $$\mathbf{a}(t) = \frac{\mathrm{d} \mathbf{v}}{\mathrm{d} t}$$
 
 
 {% include lib/mathjax.html %}
