@@ -16,7 +16,6 @@ In the real world, gravity is constantly acting on every object. The constant ac
 
 &nbsp;&nbsp;&nbsp;&nbsp;a\
 &nbsp;&nbsp;&nbsp;&nbsp;b\
-&nbsp;&nbsp;&nbsp;&nbsp;c\
-
+&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;
 
 {% include lib/mathjax.html %}
