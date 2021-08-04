@@ -12,5 +12,11 @@ Then the velocity $$\mathbf{v}$$ of the particle is the derivative of position:\
 And the acceleration $$\mathbf{a}$$ is the derivative of the velocity:\
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{a}(t) = \frac{\mathrm{d} \mathbf{v}}{\mathrm{d} t}$$
 
+In the real world, gravity is constantly acting on every object. The constant acceleration from gravity is about $$9.81 \ m/s^{2}$$. So when a particle undergoes constant acceleration, we can derive the equation for distance:
+
+&nbsp;&nbsp;&nbsp;&nbsp;a
+&nbsp;&nbsp;&nbsp;&nbsp;b
+&nbsp;&nbsp;&nbsp;&nbsp;c
+
 
 {% include lib/mathjax.html %}
