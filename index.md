@@ -20,4 +20,16 @@ In the real world, gravity is constantly acting on every object. The constant ac
 
 $$\mathbf{a}_{0}$$ represents intial acceleration at time $$t = 0$$. Additionaly, $$\mathbf{v}_{0}$$ and $$\mathbf{r}_{0}$$ represent initial velocity and position.
 
+We can assume each particle has a constant mass $$m$$. Momentum $$\mathbf{p} is defined:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{p} = m\mathbf{v}$$.
+
+Force is defined as the rate of change of momentum:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f} = \frac{\mathrm{d} \mathbf{p}}{\mathrm{d} t}$$.
+
+With constant mass this expands to:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f} = \frac{\mathrm{d} \mathbf{p}}{\mathrm{d} t} = \frac{\mathrm{d} (m\mathbf{v})}{\mathrm{d} t} = m\frac{\mathrm{d} \mathbf{v}}{\mathrm{d} t} = m\mathbf{a}$$
+
 {% include lib/mathjax.html %}
