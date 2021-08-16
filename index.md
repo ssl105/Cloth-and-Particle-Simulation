@@ -41,7 +41,7 @@ With constant mass this expands to:
 
 - The third law states any force applied from body A to body B is met with an equal and opposite force:
 
-&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{AB} = -\mathbf{BA}$$.
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{AB} = -\mathbf{f}_{BA}$$.
 
 
 {% include lib/mathjax.html %}
