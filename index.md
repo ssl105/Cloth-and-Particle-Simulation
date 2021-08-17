@@ -47,5 +47,11 @@ Since a particle can be subjected to many forces, the total force on a particle 
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{total} = \sum{\mathbf{f}_{i}}$$
 
+# Integration
+
+In order to carry out the simulation, the position of each particle needs to be updated each frame. Integration is necessary since the distance $$\mathbf{r}(t)$$ is the integral of the velocity which is the integral of acceleration. However, not all functions can be analytically integrated. Therefore we must rely on numerical integration to approximate distances.
+
+### Forward Euler Integration
+
 
 {% include lib/mathjax.html %}
