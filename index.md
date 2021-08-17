@@ -53,5 +53,32 @@ In order to carry out the simulation, the position of each particle needs to be 
 
 ### Forward Euler Integration
 
+The forwards euler integration uses the derivative to approximate the next value. To calculate the next velocity, we use the current acceleration of the particle mulitplied by the change in time added by the previous velocity:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{v}_{i+1} = \mathbf{v}_{i} + \mathbf{a}_{i}\Delta{t}$$
+
+To calculate the next distance, we use the new velocity we just calculated mulitplied by the change in time added by the previous distance:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{r}_{i+1} = \mathbf{r}_{i} + \mathbf{v}_{i+1}\Delta{t}$$
+
+# Basic Forces
+
+### Gravity
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{gravity} = m\mathbf{g}_0$$
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{g}_0 = [0 \ -9.8 \ 0 ]\frac{m}{s^2}$$
+
+### Aerodynamic Drag Force
+
+### Spring - Damper Force
+
+# Particle Systems
+
+# Cloth Simulation
+
+# Video Demos
+
+# Resources
 
 {% include lib/mathjax.html %}
