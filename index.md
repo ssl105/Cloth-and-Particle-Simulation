@@ -98,7 +98,7 @@ $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in 
 
 <p align="center">
 <img src="images/spring.png" width="400" height="400">
-<\p>
+</p>
 
 #### Damper Force
 
