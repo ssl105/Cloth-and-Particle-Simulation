@@ -109,7 +109,11 @@ $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$v_{close} = (v_2 - v_1) \cdot \mathbf{e}$$   
 
-The force calculated above would acton on particle $$r_2$$.
+- $$\mathbf{e} is calculated the same way as it is with the spring force:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e} = \frac{r_1 - r_2}{\lvert r_1 - r_2 \rvert}$$   
+
+The force calculated above would act on on particle $$r_2$$.
 
 # Particle Systems
 
