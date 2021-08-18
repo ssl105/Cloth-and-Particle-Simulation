@@ -75,9 +75,15 @@ To calculate the next distance, we use the new velocity we just calculated mulit
 
 - $$\rho$$ is the density of the fluid. The default density of air is $$1.225 kg/m^3$$. 
 - $$\mathbf{v}$$ is the relative velocity so $$\mathbf{v} = \mathbf{v}_{particle} - \mathbf{v}_{fluid}$$. 
-- $$\mathbf{e}$$ is a unit vector in the opposite direction of velocity: $$\mathbf{e} = -\frac{\mathbf{v}}{\vert\mathbf{v}\rvert}$$
+- $$\mathbf{e}$$ is a unit vector in the opposite direction of velocity: $$\mathbf{e} = -\frac{\mathbf{v}}{\vert\mathbf{v}\rvert}$$. This determines the direction the force acts on.
+- $$c_d$$ is the drag coefficient which determines the aerodynamic drag of an object's shape. A value closer to 0 would be considered streamlined while a higher value moves slower through the surrounding fluid.
+- $$a$$ is cross sectional area moving through the fluid, which is the area viewed from the direction of motion. A sphere of radius $$r$$ would have an area of $$\pi r^2$$.
 
 ### Spring - Damper Force
+
+#### Spring Force
+
+#### Damper Force
 
 # Particle Systems
 
