@@ -90,7 +90,7 @@ We can use hooke's law to define spring force:
 - $$k_s$$ is the spring constant that determines the stiffness of the spring. 
 - $$\mathbf{x}$$ represents the displacement:
 
-<img align="right" src="images/spring.png" width="400" height="400">
+<img align="right" src="images/spring.png" width="200" height="200">
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{x} = x\mathbf{e}$$   
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e} = \frac{r_1 - r_2}{\lvert r_1 - r_2 \rvert}$$   
