@@ -83,6 +83,15 @@ To calculate the next distance, we use the new velocity we just calculated mulit
 
 #### Spring Force
 
+We can use hooke's law to define spring force:
+
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{spring} = -k_s\mathbf{x}$$
+
+- $$k_s$$ is the spring constant that determines the stiffness of the spring. 
+- $$\mathbf{x}$$ represents the displacement.
+
+[spring!](images/spring.png)
+
 #### Damper Force
 
 # Particle Systems
