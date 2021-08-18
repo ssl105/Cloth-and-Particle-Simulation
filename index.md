@@ -96,7 +96,9 @@ We can use hooke's law to define spring force:
 
 $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in the image below.
 
+<p align="center">
 <img src="images/spring.png" width="400" height="400">
+<\p>
 
 #### Damper Force
 
