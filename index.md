@@ -83,14 +83,14 @@ To calculate the next distance, we use the new velocity we just calculated mulit
 
 #### Spring Force
 
+<img align="right" src="images/spring.png" width="300" height="300">
+
 We can use hooke's law to define spring force:
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{spring} = -k_s\mathbf{x}$$
 
 - $$k_s$$ is the spring constant that determines the stiffness of the spring. 
 - $$\mathbf{x}$$ represents the displacement:
-
-<img align="right" src="images/spring.png" width="200" height="200">
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{x} = x\mathbf{e}$$   
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e} = \frac{r_1 - r_2}{\lvert r_1 - r_2 \rvert}$$   
