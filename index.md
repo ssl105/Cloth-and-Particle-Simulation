@@ -71,10 +71,10 @@ To calculate the next distance, we use the new velocity we just calculated mulit
 
 ### Aerodynamic Drag Force
 
-&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{drag} = \frac{1}{2}\rho|\mathbf{v}|^2c_da\mathbf{e}$$
+&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{drag} = \frac{1}{2}\rho\left|\mathbf{v}\right|^2c_da\mathbf{e}$$
 
 - $$\rho$$ is the density of the fluid. The default density of air is $$1.225 kg/m^3$$. 
-- $$\mathbf{v}$$ is the relative velocity so $$\mathbf{v} = \mathbf{v}_particle - \mathbf{v}_fluid$$. 
+- $$\mathbf{v}$$ is the relative velocity so $$\mathbf{v} = \mathbf{v}_{particle} - \mathbf{v}_{fluid}$$. 
 - $$\mathbf{e}$$ is a unit vector in the opposite direction of velocity: $$\mathbf{e} = -\frac{\mathbf{v}}{|\mathbf{v}|}$$
 
 ### Spring - Damper Force
