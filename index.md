@@ -100,7 +100,7 @@ $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in 
 
 #### Damper Force
 
-<img align="right" src="images/vClose.png" width="200" height="200">
+<img align="right" src="images/vClose.png" width="300" height="200">
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{damp} = -k_dv_{close}\mathbf{e}$$
 
