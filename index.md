@@ -90,7 +90,7 @@ We can use hooke's law to define spring force:
 - $$k_s$$ is the spring constant that determines the stiffness of the spring. 
 - $$\mathbf{x}$$ represents the displacement.
 
-[spring!](images/spring.png)
+![spring](images/spring.png)
 
 #### Damper Force
 
