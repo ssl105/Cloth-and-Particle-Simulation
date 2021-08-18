@@ -96,7 +96,7 @@ We can use hooke's law to define spring force:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e} = \frac{r_1 - r_2}{\lvert r_1 - r_2 \rvert}$$   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$x = \lvert r_1 - r_2 \rvert - l_0$$
 
-$$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in the image below.
+$$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in the image on the right. The force calculated above would act on particle $$r_1$$.
 
 #### Damper Force
 
@@ -108,6 +108,8 @@ $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in 
 - $$v_{close}$$ is the rate at which two objects are approaching each other:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$v_{close} = (v_2 - v_1) \cdot \mathbf{e}$$   
+
+The force calculated above would acton on particle $$r_2$$.
 
 # Particle Systems
 
