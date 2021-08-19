@@ -137,6 +137,6 @@ Since the total force on a particle is the sum of all the forces applied on a pa
 
 # Resources
 
-- [Particle Simulation Slides](slides/Particle\ Simulation.pdf)
+- [Particle Simulation Slides](slides/Particle Systems.pdf)
 
 {% include lib/mathjax.html %}
