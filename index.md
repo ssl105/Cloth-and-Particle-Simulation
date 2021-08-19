@@ -141,6 +141,6 @@ Slides are from Steve Rotenberg UCSD Winter 2021 Computer Animation (CSE 169)
 
 - [Particle Simulation Slides](slides/Particle Systems.pdf)
 - [Cloth Simulation Slides](slides/Cloth Simulation.pdf)
-- [Collision Detection Slides](slides/Cloth Simulation.pdf)
+- [Collision Detection Slides](slides/Collision Detection.pdf)
 
 {% include lib/mathjax.html %}
