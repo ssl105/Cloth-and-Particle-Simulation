@@ -119,13 +119,13 @@ The force calculated above would act on on particle $$r_2$$.
 
 Since the total force on a particle is the sum of all the forces applied on a particle we can simply add the spring and damper forces together in order to use them both. We need to flip the sign on one of the forces since the forces apply in opposite directions. In order minimize calculations, spring - damper forces should be calculated as below, where $$\mathbf{f}_1$$ is spring-damper force on particle 1 and $$\mathbf{f}_2$$ is spring-damper force on partice 2:
 
-$$\mathbf{e}^* = \mathbf{r}_2 - \mathbf{r}_1$$   
-$$l = \lvert \mathbf{e}^* \rvert$$   
-$$\mathbf{e} = \frac{\mathbf{e}^*}{l}$$   
-$$v_{close} = (\mathbf{v}_1 - \mathbf{v}_2) \cdot \mathbf{e}$$   
-$$f = k_s(l-l_0) - k_dv_{close}$$   
-$$\mathbf{f}_1 = f\mathbf{e}$$   
-$$\mathbf{f}_2 = -\mathbf{f}_1$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e}^* = \mathbf{r}_2 - \mathbf{r}_1$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$l = \lvert \mathbf{e}^* \rvert$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{e} = \frac{\mathbf{e}^*}{l}$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$v_{close} = (\mathbf{v}_1 - \mathbf{v}_2) \cdot \mathbf{e}$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$f = k_s(l-l_0) - k_dv_{close}$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_1 = f\mathbf{e}$$   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_2 = -\mathbf{f}_1$$   
 
 # Particle Systems
 
