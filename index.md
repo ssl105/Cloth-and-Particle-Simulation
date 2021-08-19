@@ -137,6 +137,10 @@ Since the total force on a particle is the sum of all the forces applied on a pa
 
 # Resources
 
+Slides are from Steve Rotenberg UCSD Winter 2021 Computer Animation (CSE 169)
+
 - [Particle Simulation Slides](slides/Particle Systems.pdf)
+- [Cloth Simulation Slides](slides/Cloth Simulation.pdf)
+- [Collision Detection Slides](slides/Cloth Simulation.pdf)
 
 {% include lib/mathjax.html %}
