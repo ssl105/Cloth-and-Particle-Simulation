@@ -133,9 +133,9 @@ Since the total force on a particle is the sum of all the forces applied on a pa
 
 To implement a particle system you can update and calculate positions using the formulas showed above. Spring and damper forces are not necessary for particle systems so you only need to incorporate gravity and aerodynamic forces. Summing the forces together you can calculate the acceleration using $$\mathbf{f} = m\mathbf{a}$$. Then using that accleration you can update the velocity and position of a particle with Euler integration. 
 
-For the particle models you can use any shape, but for simplicity you should use a sphere obj model or a built model from an API like point sprites in OpenGL.
+For the particle models you can use any shape, but for simplicity you should use a sphere obj model or a built model from an API like point sprites in OpenGL. Using different models for the particles will require you to adjust the area and direction vector $$\mathbf{e}$$ used in aerodynamic force calculation accordingly. 
 
-You will need to configure you own creation and destruction rules for a particle system. A simple configuration would be to have a maximum amount of particles in a system and for each particle to have a lifespan. Once a particle reaches the end of its lifespan you remove it from the system and create new particles during each update based on a configured rate. 
+You will need to configure your own creation and destruction rules for a particle system. A simple configuration would be to have a maximum amount of particles in a system and for each particle to have a lifespan. Once a particle reaches the end of its lifespan you remove it from the system and create new particles during each update based on a configured rate (for example 3 particles every update call). 
 
 # Cloth Simulation
 
