@@ -146,6 +146,8 @@ To simulate cloth animation you can utilize particles with spring-damper forces 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{v} = \frac{\mathbf{v}_1 + \mathbf{v}_2 + \mathbf{v}_3}{3} - \mathbf{v}_{air}$$ 
 
 
+
+
 <img align="right" src="images/tri.png" width="250" height="250">
 For the direction vector $$\mathbf{e}$$ you can use the normal of the triangle, which is calculated using the cross product:
 
