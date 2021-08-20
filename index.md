@@ -158,8 +158,6 @@ To calculate the area you have to take in to consideration the area which is aff
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$a = \frac{1}{2} \lvert (\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1) \rvert (\frac{\mathbf{v}}{\lvert  \mathbf{v} \rvert} \cdot \mathbf{n})$$
 
-
-
 # Video Demos
 
 Particle System Demo:
@@ -167,6 +165,8 @@ Particle System Demo:
 
 Cloth Simulation Demo:
 [![Cloth Simulation](http://i3.ytimg.com/vi/VHM7BjwS2q0/maxresdefault.jpg)](https://youtu.be/VHM7BjwS2q0)
+
+**Note:** A simple collision detection is implemented for ground plane only. For more information on how to handle collisions refer to collision detection slides below.
 
 # Resources
 
