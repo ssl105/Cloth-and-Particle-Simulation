@@ -160,7 +160,6 @@ To calculate the area you have to take in to consideration the area which is aff
 
 \
 \
-
 # Video Demos
 
 Particle System Demo:
