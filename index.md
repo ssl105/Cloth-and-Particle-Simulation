@@ -146,10 +146,16 @@ To simulate cloth animation you can utilize particles with spring-damper forces 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{v} = \frac{\mathbf{v}_1 + \mathbf{v}_2 + \mathbf{v}_3}{3} - \mathbf{v}_{air}$$ 
 \
 \
-<img align="right" src="images/tri.png" width="250" height="250">
+<img align="right" src="images/tri.png" width="125" height="125">
 For the direction vector $$\mathbf{e}$$ you can use the normal of the triangle, which is calculated using the cross product:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{n} = \frac{(\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1)}{\lvert(\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1)\rvert}$$ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{n} = \frac{(\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1)}{\lvert(\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1)\rvert}$$
+\
+
+<img align="right" src="area/tri.png" width="125" height="125">
+To calculate the area you have to take in to consideration the area which is affected by the direction of airflow:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$$a = \frac{1}{2} \lvert (\mathbf{r}_2 - \mathbf{r}_1) \times (\mathbf{r}_3 - \mathbf{r}_1) \rvert (\frac{\mathbf{v}}{\lvert  \mathbf{v} \rvert} \cdot \mathbf{n})
 
 
 
