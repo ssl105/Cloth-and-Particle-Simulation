@@ -139,7 +139,7 @@ You will need to configure your own creation and destruction rules for a particl
 
 # Cloth Simulation
 
-<img align="right" src="images/vClose.png" width="400" height="250">
+<img align="right" src="images/cloth.png" width="400" height="250">
 
 To simulate cloth animation you can utilize particles with spring-damper forces shown in the figure on the left. The particles and spring-damper forces are mainly used to structure the cloth. You should use triangles for rendering by using the particle positions. You should also use triangles when calculating the aerodynamic force on particles. The velocity of a triangle would be the average velocity of its particles (vertices). Since aerodynamic force uses relative velocity you would then need to subtract the velocity of the air:
 
