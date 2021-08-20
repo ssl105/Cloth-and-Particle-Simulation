@@ -83,7 +83,7 @@ To calculate the next distance, we use the new velocity we just calculated mulit
 
 #### Spring Force
 
-<img align="right" src="images/spring.png" width="300" height="300">
+<img align="right" src="images/spring.png" width="350" height="300">
 
 We can use hooke's law to define spring force:
 
@@ -100,7 +100,7 @@ $$l_0$$ is the rest length between two particles $$r_1$$ and $$r_2$$ as seen in 
 
 #### Damper Force
 
-<img align="right" src="images/vClose.png" width="300" height="200">
+<img align="right" src="images/vClose.png" width="400" height="200">
 
 &nbsp;&nbsp;&nbsp;&nbsp;$$\mathbf{f}_{damp} = -k_dv_{close}\mathbf{e}$$
 
