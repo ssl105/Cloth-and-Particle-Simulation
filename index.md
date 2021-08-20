@@ -166,7 +166,9 @@ Particle System Demo:
 Cloth Simulation Demo:
 [![Cloth Simulation](http://i3.ytimg.com/vi/VHM7BjwS2q0/maxresdefault.jpg)](https://youtu.be/VHM7BjwS2q0)
 
-**Note:** A simple collision detection is implemented for ground plane only. For more information on how to handle collisions refer to collision detection slides below.
+**Note:**
+- A simple collision detection is implemented for ground plane only. For more information on how to handle collisions refer to collision detection slides listed under references.
+- The particle simulation demo uses the [AntTweakBar GUI](http://anttweakbar.sourceforge.net/doc/).
 
 # Resources
 
